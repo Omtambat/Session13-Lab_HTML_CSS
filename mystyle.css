@@ -1,0 +1,82 @@
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background: #f0f4ff;
+    color: #263248;
+}
+
+header {
+    background: #243b80;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+.role {
+    color: #dce5ff;
+    font-size: 18px;
+}
+
+.about,
+.skills,
+.projects {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+h2 {
+    color: #354ca0;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skills li {
+    background: #e8f1fb;
+    padding: 6px 12px;
+    border-radius: 14px;
+}
+
+.card {
+    background: #f3f0ff;
+    padding: 15px;
+    margin: 12px 0;
+    border-radius: 10px;
+    border: 1px solid #d8d0ff;
+}
+
+.card:hover {
+    background: #e6e0ff;
+}
+
+footer {
+    text-align: center;
+    color: #666666;
+    margin-top: 24px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    header {
+        padding: 20px;
+    }
+}
